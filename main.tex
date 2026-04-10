@@ -1,0 +1,226 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\renewcommand{\labelitemi}{--} % Changes the first-level bullet to a dash
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item[--]\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Aneesh Iyer} \\ \vspace{1pt}
+    \small \faPhone\ (513) 399-1607 $|$ \href{mailto:aiyer@gatech.edu}{\underline{\faEnvelope\ aiyer@gatech.edu}} $|$ 
+    \href{https://linkedin.com/in/aneesh-iyer}{\underline{\faLinkedin\ in/aneesh-iyer}} $|$
+    \href{https://github.com/aneesh-iyer29}{\underline{\faGithub\ github.com/aneesh-iyer29}} $|$ \href{https://aneesh-iyer29.github.io/}{\underline{\faGlobe\ aneesh-iyer29.github.io}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Georgia Institute of Technology}{May 2028}
+      {B.S in Computer Engineering}{Atlanta, GA}
+      \begin{itemize}[label=--]
+          \item Cumulative GPA: 4.0
+          \item Relevant Coursework: Linear Algebra, Calculus III, Ordinary Differential Equations, Physics I and II, Data Structures and Algorithms, Circuit Analysis, Low Level Programming
+      \end{itemize}
+  \resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, Rust, C, C++, SQL, JavaScript, HTML/CSS, R, MatLab, \LaTeX, Bash, Arduino, RISC-V} \\
+     \textbf{Engineering Focus}{: Control Systems, Sensor Fusion, Embedded Systems, Systems Engineering, Aerospace Systems} \\
+     \\
+     \textbf{Proficiencies}{: Microsoft 365, Data Analytics, Modeling \& Simulation, Management, Teaching, Spanish (Intermediate)}
+     \textbf{Interests}{: Machine Learning, Optics, Artificial Intelligence, Cryptography, Cybersecurity, Algorithms}
+    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Software Engineer}{Sep. 2025 -- Present}
+      {Architect Labs (prev. Nuntius YC 'S25)}{Remote}
+      \resumeItemListStart
+        \resumeItem{Designed and implemented custom data-based environments with synthetic data generation, automatic evaluation, and a custom reward system to quantify LLM model alignment in tool-based systems.}
+        \resumeItem{Conducted penetration testing and failure analysis on AI models, uncovering security weaknesses and edge cases that informed model hardening strategies.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Propulsive Landers}{Jan. 2026 -- Present}
+      {Guidance, Navigation, and Control | Python, Rust}{Atlanta, GA}
+      \resumeItemListStart
+        \resumeItem{Developed control systems simulations for autonomous flight, implementing servo command scheduling to simulate time-dependent actuation in flight}
+        \resumeItem{Implemented real-time sensor fusion using an Extended Kalman Filter and dynamic state transitions for estimation under noisy sensor conditions}
+
+      \resumeItemListEnd
+
+      
+    \resumeSubheading
+      {Experimental Physics Lab Assistant}{Aug. 2024 -- Dec. 2024}
+      {State University of New York}{Remote}
+      \resumeItemListStart
+        \resumeItem{Processed and visualized real-time sensor data, applying statistical and graphical analysis methods }
+        \resumeItem{Provided reference data and adjustments to enhance the quality and comprehensibility of the lab experience}
+
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+      \resumeSubheading
+      {Science Olympiad}{Aug. 2019 -- Present}
+      {Captain, Competitor, Director}{Mason, OH \& Atlanta, GA}
+      \resumeItemListStart
+        \resumeItem{Led 3rd place National team; managed 100+ members, and oversaw resource exchange with 100+ schools.}
+        \resumeItem{Directed a nationwide, 270-team tournament; raised \$20K, managed all logistics, communications, and awards.}
+        \resumeItem{Notable Awards: 1st at Nationals in Optics, 2nd in Codebusters; 1st at MIT in Bungee Drop and Optics}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Mathworks Math Modeling (M3) Champion} $|$ \emph{Python, R}}{Mar. 2025 -- May 2025}
+          \resumeItemListStart
+            \resumeItem{Developed mathematical models to predict energy demand in Memphis in 2025 and 2045; validated models with real-world data using Python and SciPy}
+            \resumeItem{Built multiple linear regression models with backward variable selection to quantify vulnerability, guiding targeted resource allocation based on statistical and socioeconomic indicators}
+            \resumeItem{Presented findings live to Ph.D mathematicians; Published in the SIAM Undergraduate Research Online journal}
+            \resumeItem{Placed 1st out of 794 teams internationally in the US and UK; Awarded \$20,000 grand prize}
+            \resumeItem{Shao, Raymond, et al. “Hot Button Issue: Staying Cool as the World Heats Up.” \textit{SIAM Undergraduate Research Online}, vol. 18, 2025. Crossref, doi:10.1137/25s1777554.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{ScioVirtual Codebusters} $|$ \emph{HTML, CSS, Javascript}}{July 2024, 2025}
+          \resumeItemListStart
+            \resumeItem{Designed and developed an interactive Codebusters practice embed to solve questions for ScioVirtual.}
+            \resumeItem{Created a dynamic UI allowing 70+ students to solve problems in real time and receive instant feedback}
+            \resumeItem{Enhanced student engagement and hands-on learning experience, contributing to higher retention}
+            \resumeItem{Recognized with “Instructor of the Year” award and the highest-rated class on the platform}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    
+
+%
+
+
+%-------------------------------------------
+\end{document}
